@@ -215,3 +215,39 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media screen and (max-width: 980px){
+body{
+    width: 100%;
+    height: auto;
+}
+nav{
+    float: left;
+}
+  }
+
+  @media screen and (max-width: 768px){
+    body{
+        width: 100%;
+        height: auto;
+        background-color: #999;
+    }
+
+    #logo{
+        width: min-content;
+    }
+
+    #masthead{
+        align-content: center;
+    }
+  }
+
+  @media screen and (max-width: 640px){
+    body{
+        width: 100%;
+        height: auto;
+    }
+    header{
+    position: static;
+}
+  }
